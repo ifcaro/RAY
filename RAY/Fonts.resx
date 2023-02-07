@@ -1,0 +1,957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>786, 440</value>
+  </data>
+  <data name="HeightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DrawWidthTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;IndexTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="PreviewPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 13</value>
+  </data>
+  <data name="&gt;&gt;WidthLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PasteValuesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="RealWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 218</value>
+  </data>
+  <data name="SourceXLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;EquivalentCharTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Unk3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 299</value>
+  </data>
+  <data name="PasteValuesButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="HeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="Unk1Label.Text" xml:space="preserve">
+    <value>Unknown 1</value>
+  </data>
+  <data name="&gt;&gt;Unk1TextBox.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="DrawWidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 166</value>
+  </data>
+  <data name="SourceXLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="NameColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="&gt;&gt;DrawWidthLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 140</value>
+  </data>
+  <data name="RealWidthLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;Unk1TextBox.Name" xml:space="preserve">
+    <value>Unk1TextBox</value>
+  </data>
+  <data name="HeightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="IndexTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="&gt;&gt;SourceXTextBox.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;DrawWidthLabel.Name" xml:space="preserve">
+    <value>DrawWidthLabel</value>
+  </data>
+  <data name="&gt;&gt;WidthTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TexturePageInfoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 348</value>
+  </data>
+  <data name="&gt;&gt;HeightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WidthTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;CopyValuesButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="HeightTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SpriteColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DrawHeightTextBox.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="DrawHeightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="Unk3Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="RealWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 221</value>
+  </data>
+  <data name="&gt;&gt;Unk1TextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WidthLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Unk2TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameColumnHeader.Name" xml:space="preserve">
+    <value>NameColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;PreviewPictureBox.Name" xml:space="preserve">
+    <value>PreviewPictureBox</value>
+  </data>
+  <data name="&gt;&gt;RealWidthLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SpritesListView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="IndexTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;EquivalentCharLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SourceYLabel.Text" xml:space="preserve">
+    <value>Source Y</value>
+  </data>
+  <data name="DrawHeightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;HeightLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Unk2Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeightTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SourceYTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DrawWidthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="SpritesListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 415</value>
+  </data>
+  <data name="&gt;&gt;Unk2Label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="SourceYLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 91</value>
+  </data>
+  <data name="PreviewPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 162</value>
+  </data>
+  <data name="SourceXTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="&gt;&gt;IndexLabel.Name" xml:space="preserve">
+    <value>IndexLabel</value>
+  </data>
+  <data name="&gt;&gt;PasteValuesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DrawWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="&gt;&gt;PaletteInfoTextBox.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;PaletteInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Unk3TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 296</value>
+  </data>
+  <data name="&gt;&gt;SourceYTextBox.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;IndexLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IndexLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;PreviewPictureBox.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;PreviewPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RealWidthTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SourceXTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PreviewPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;WidthLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;RealWidthLabel.Name" xml:space="preserve">
+    <value>RealWidthLabel</value>
+  </data>
+  <data name="&gt;&gt;TexturePageInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EquivalentCharLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Unk3Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 117</value>
+  </data>
+  <data name="Unk2TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="SourceYLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="TexturePageInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 351</value>
+  </data>
+  <data name="&gt;&gt;IndexTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SpritesListView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;EquivalentCharTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;HeightLabel.Name" xml:space="preserve">
+    <value>HeightLabel</value>
+  </data>
+  <data name="&gt;&gt;Unk3TextBox.Name" xml:space="preserve">
+    <value>Unk3TextBox</value>
+  </data>
+  <data name="&gt;&gt;Unk3Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Fonts</value>
+  </data>
+  <data name="IndexLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Name" xml:space="preserve">
+    <value>SaveButton</value>
+  </data>
+  <data name="RealWidthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="&gt;&gt;EquivalentCharLabel.Name" xml:space="preserve">
+    <value>EquivalentCharLabel</value>
+  </data>
+  <data name="Unk3Label.Text" xml:space="preserve">
+    <value>Unknown 3</value>
+  </data>
+  <data name="&gt;&gt;SourceYTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RealWidthLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeightLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Unk2TextBox.Name" xml:space="preserve">
+    <value>Unk2TextBox</value>
+  </data>
+  <data name="&gt;&gt;Unk3TextBox.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Unk1Label.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;DrawHeightLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Unk3TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="DrawWidthLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;PasteValuesButton.Name" xml:space="preserve">
+    <value>PasteValuesButton</value>
+  </data>
+  <data name="&gt;&gt;SourceXLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PaletteInfoTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TexturePageInfoLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CopyValuesButton.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;IndexTextBox.Name" xml:space="preserve">
+    <value>IndexTextBox</value>
+  </data>
+  <data name="&gt;&gt;PaletteInfoTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Unk2Label.Text" xml:space="preserve">
+    <value>Unknown 2</value>
+  </data>
+  <data name="&gt;&gt;PasteValuesButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;CopyValuesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DrawWidthTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EquivalentCharLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 377</value>
+  </data>
+  <data name="PaletteInfoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="WidthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;DrawWidthLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EquivalentCharLabel.Text" xml:space="preserve">
+    <value>Equivalent char</value>
+  </data>
+  <data name="&gt;&gt;SpritesListView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TexturePageInfoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="Unk1Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="&gt;&gt;IndexTextBox.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="DrawWidthTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="SaveButton.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;TexturePageInfoLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SpriteColumnHeader.Name" xml:space="preserve">
+    <value>SpriteColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;PaletteInfoLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="SourceXLabel.Text" xml:space="preserve">
+    <value>Source X</value>
+  </data>
+  <data name="SourceYTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 88</value>
+  </data>
+  <data name="&gt;&gt;Unk3Label.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="NameColumnHeader.Text" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="&gt;&gt;WidthTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TexturePageInfoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="RealWidthLabel.Text" xml:space="preserve">
+    <value>Real Width</value>
+  </data>
+  <data name="PaletteInfoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Unk2TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IndexLabel.Text" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="TexturePageInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="EquivalentCharTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CopyValuesButton.Text" xml:space="preserve">
+    <value>Copy values</value>
+  </data>
+  <data name="SourceYLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;DrawWidthTextBox.Name" xml:space="preserve">
+    <value>DrawWidthTextBox</value>
+  </data>
+  <data name="&gt;&gt;EquivalentCharLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Unk1Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DrawHeightTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WidthLabel.Text" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="&gt;&gt;IndexLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="IndexLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Unk1Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;DrawHeightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Unk1TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 244</value>
+  </data>
+  <data name="&gt;&gt;SourceYTextBox.Name" xml:space="preserve">
+    <value>SourceYTextBox</value>
+  </data>
+  <data name="&gt;&gt;SpritesListView.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="DrawHeightTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="EquivalentCharLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="DrawWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 169</value>
+  </data>
+  <data name="CopyValuesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 210</value>
+  </data>
+  <data name="RealWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="&gt;&gt;TexturePageInfoTextBox.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="DrawHeightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 195</value>
+  </data>
+  <data name="DrawHeightTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="&gt;&gt;TexturePageInfoTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Unk1TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="SourceXLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="RealWidthTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Fonts</value>
+  </data>
+  <data name="Unk2Label.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;SourceXTextBox.Name" xml:space="preserve">
+    <value>SourceXTextBox</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TexturePageInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;Unk2TextBox.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;SourceYLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PaletteInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Unk1Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SourceXLabel.Name" xml:space="preserve">
+    <value>SourceXLabel</value>
+  </data>
+  <data name="SpriteColumnHeader.Text" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="PaletteInfoLabel.Text" xml:space="preserve">
+    <value>Palette Info</value>
+  </data>
+  <data name="&gt;&gt;DrawHeightLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="SpritesListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="PaletteInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 325</value>
+  </data>
+  <data name="&gt;&gt;DrawHeightTextBox.Name" xml:space="preserve">
+    <value>DrawHeightTextBox</value>
+  </data>
+  <data name="EquivalentCharLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="&gt;&gt;SourceYTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HeightLabel.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="&gt;&gt;IndexLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WidthLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="DrawHeightTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 192</value>
+  </data>
+  <data name="PaletteInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="&gt;&gt;Unk2TextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EquivalentCharTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 374</value>
+  </data>
+  <data name="&gt;&gt;PasteValuesButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RealWidthLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PaletteInfoLabel.Name" xml:space="preserve">
+    <value>PaletteInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;SourceXTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CopyValuesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="&gt;&gt;Unk1Label.Name" xml:space="preserve">
+    <value>Unk1Label</value>
+  </data>
+  <data name="&gt;&gt;HeightTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="HeightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 143</value>
+  </data>
+  <data name="&gt;&gt;EquivalentCharLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="Unk3Label.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="WidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="Unk1TextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;DrawHeightLabel.Name" xml:space="preserve">
+    <value>DrawHeightLabel</value>
+  </data>
+  <data name="SourceXTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 62</value>
+  </data>
+  <data name="Unk3Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="DrawHeightLabel.Text" xml:space="preserve">
+    <value>Draw Height</value>
+  </data>
+  <data name="PaletteInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;DrawWidthLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;PaletteInfoTextBox.Name" xml:space="preserve">
+    <value>PaletteInfoTextBox</value>
+  </data>
+  <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 181</value>
+  </data>
+  <data name="&gt;&gt;HeightTextBox.Name" xml:space="preserve">
+    <value>HeightTextBox</value>
+  </data>
+  <data name="SaveButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="TexturePageInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="&gt;&gt;EquivalentCharTextBox.Name" xml:space="preserve">
+    <value>EquivalentCharTextBox</value>
+  </data>
+  <data name="Unk3TextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="IndexLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 39</value>
+  </data>
+  <data name="&gt;&gt;TexturePageInfoTextBox.Name" xml:space="preserve">
+    <value>TexturePageInfoTextBox</value>
+  </data>
+  <data name="DrawWidthLabel.Text" xml:space="preserve">
+    <value>Draw Width</value>
+  </data>
+  <data name="&gt;&gt;Unk2Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Unk3Label.Name" xml:space="preserve">
+    <value>Unk3Label</value>
+  </data>
+  <data name="TexturePageInfoLabel.Text" xml:space="preserve">
+    <value>Texture Page Info</value>
+  </data>
+  <data name="EquivalentCharTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;TexturePageInfoLabel.Name" xml:space="preserve">
+    <value>TexturePageInfoLabel</value>
+  </data>
+  <data name="PasteValuesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 239</value>
+  </data>
+  <data name="&gt;&gt;RealWidthTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="HeightLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="SaveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="SourceYLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="IndexTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 36</value>
+  </data>
+  <data name="&gt;&gt;RealWidthTextBox.Name" xml:space="preserve">
+    <value>RealWidthTextBox</value>
+  </data>
+  <data name="PreviewPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DrawWidthTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TexturePageInfoTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SourceXTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EquivalentCharLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="SourceYTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="WidthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;Unk1TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Unk2TextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 270</value>
+  </data>
+  <data name="&gt;&gt;SpritesListView.Name" xml:space="preserve">
+    <value>SpritesListView</value>
+  </data>
+  <data name="PaletteInfoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 322</value>
+  </data>
+  <data name="&gt;&gt;RealWidthTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HeightTextBox.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;Unk2Label.Name" xml:space="preserve">
+    <value>Unk2Label</value>
+  </data>
+  <data name="&gt;&gt;CopyValuesButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Unk3TextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DrawHeightLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;NameColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Unk2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 273</value>
+  </data>
+  <data name="Unk1Label.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="PasteValuesButton.Text" xml:space="preserve">
+    <value>Paste values</value>
+  </data>
+  <data name="Unk2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="&gt;&gt;CopyValuesButton.Name" xml:space="preserve">
+    <value>CopyValuesButton</value>
+  </data>
+  <data name="&gt;&gt;WidthTextBox.Name" xml:space="preserve">
+    <value>WidthTextBox</value>
+  </data>
+  <data name="PaletteInfoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;DrawHeightTextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="WidthTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 114</value>
+  </data>
+  <data name="&gt;&gt;SourceXLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SourceXLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Unk2Label.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;DrawWidthTextBox.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="SpritesListView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SourceYLabel.Name" xml:space="preserve">
+    <value>SourceYLabel</value>
+  </data>
+  <data name="&gt;&gt;WidthTextBox.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="RealWidthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="Unk1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 247</value>
+  </data>
+  <data name="&gt;&gt;SaveButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EquivalentCharTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SourceXLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 65</value>
+  </data>
+  <data name="&gt;&gt;SourceYLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EquivalentCharTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 20</value>
+  </data>
+  <data name="&gt;&gt;SourceYLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;WidthLabel.Name" xml:space="preserve">
+    <value>WidthLabel</value>
+  </data>
+  <data name="&gt;&gt;Unk3TextBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
